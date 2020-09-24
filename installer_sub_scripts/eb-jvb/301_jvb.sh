@@ -146,7 +146,7 @@ lxc-attach -n $MACH -- \
          'jitsi-videobridge2 jitsi-videobridge/jvb-hostname string $JITSI_HOST'
 
      apt-get $APT_PROXY_OPTION -y --install-recommends install \
-         jitsi-videobridge2"
+         jitsi-videobridge2=2.1-351-g0bfaac1c-1" # fix jvb version
 
 # -----------------------------------------------------------------------------
 # JVB
